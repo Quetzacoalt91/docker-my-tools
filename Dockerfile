@@ -7,10 +7,10 @@ RUN apt-get update \
  && apt-get install --no-install-recommends -y \
     nodejs \
     npm \
-    php5-cli \
-    php5-curl \
-    php5-json \
-    php5-intl \
+    php7.0-cli \
+    php7.0-curl \
+    php7.0-json \
+    php7.0-intl \
     curl \
     wget \
     git \
